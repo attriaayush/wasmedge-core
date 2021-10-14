@@ -7,7 +7,7 @@
       "cflags_cc!": [ "-fno-exceptions", "-fno-rtti" ],
       "link_settings": {
           "libraries": [
-              "$(HOME)/.wasmedge/lib/libwasmedge_c.so",
+              "$(HOME)/.wasmedge/lib/libwasmedge_c.dylib",
           ],
       },
       "sources": [
